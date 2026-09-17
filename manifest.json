@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "com.darkhorse-studios.tmog-bar-widget",
+  "name": "TMOG",
+  "version": "1.0.0",
+  "author": "jsauer",
+  "description": "Launch and toggle TMOG AppImage on a special (scratchpad) workspace, like a dropdown window.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "TmogWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "TMOG",
+    "description": "Show/hide TMOG as a dropdown via the special:taskmgr scratchpad.",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {
+      "binary": "~/Applications/TaskManagerOG-0.1.3-x86_64.AppImage"
+    },
+    "schema": [
+      {
+        "key": "binary",
+        "type": "path",
+        "label": "appimage path",
+        "description": "absolute path to tmog appimage.",
+        "defaultValue": "~/Applications/TaskManagerOG-0.1.3-x86_64.AppImage"
+      }
+    ]
+  }
+}
