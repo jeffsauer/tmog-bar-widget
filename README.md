@@ -9,7 +9,7 @@ To install, use the following command:
 omarchy plugin add https://github.com/jeffsauer/tmog-bar-widget --enable
 ```
 
-And then add the following rule to ~/.config/hypr/looknfeel.lua and then do a ```hyprctl reload``` command.
+And then add the following rule to ~/.config/hypr/looknfeel.lua followed by a ```hyprctl reload``` command to let hyprland know about the new rule.
 
 ```
 o.window("^com.tmog.taskmanager$", { workspace = "special:taskmgr silent" })
