@@ -9,13 +9,6 @@ To install, use the following command:
 omarchy plugin add https://github.com/jeffsauer/tmog-bar-widget --enable
 ```
 
-And then add the following rule to ~/.config/hypr/looknfeel.lua followed by a ```hyprctl reload``` command to let hyprland know about the new rule.
-
-```
-o.window("^com.tmog.taskmanager$", { workspace = "special:taskmgr silent" })
-```
-
-
 To enable a keybinding shortcut to toggle the visibility of TMOG (e.g. SUPER+ALT+T), simply add the following to .config/hypr/bindings.lua:
 
 ```
