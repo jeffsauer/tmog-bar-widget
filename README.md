@@ -1,7 +1,9 @@
 <img width="1897" height="1220" alt="tmog-bar-widget" src="https://github.com/user-attachments/assets/d7436dcb-1612-493a-8df4-164cbd1af20d" />
 
 # tmog-bar-widget
-Omarchy bar widget to toggle (i.e. show/hide) TMOG visibility using a hyprland scratchpad workspace.
+Omarchy bar widget to toggle (i.e. show/hide) [TMOG Task Manager](https://tmog.org/) visibility using a hyprland scratchpad workspace. 
+
+This app is in no way affiliated with TMOG, just a helper widget to utilize it in Omarchy.
 
 Assumes TMOG AppImage is located in ~/Applications and is named TaskManagerOG.AppImage
 
