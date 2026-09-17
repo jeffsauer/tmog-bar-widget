@@ -16,7 +16,7 @@ BarWidget {
   readonly property string special: "taskmgr"
   readonly property string appTitle: "Task Manager TMOG"
   readonly property string appClass: "com.tmog.taskmanager"
-  readonly property string appBinary: root.setting("binary", "~/Applications/TaskManagerOG-0.1.3-x86_64.AppImage")
+  readonly property string appBinary: root.setting("binary", "~/Applications/TaskManagerOG.AppImage")
 
   // Facts about the current state. hasClient = a TMOG window exists (3s
   // refresh poll); shown = the special:taskmgr scratchpad is the active
