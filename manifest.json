@@ -18,7 +18,7 @@
     "allowMultiple": false,
     "defaultSection": "right",
     "defaults": {
-      "binary": "~/Applications/TaskManagerOG-0.1.3-x86_64.AppImage"
+      "binary": "~/Applications/TaskManagerOG.AppImage"
     },
     "schema": [
       {
@@ -26,7 +26,7 @@
         "type": "path",
         "label": "appimage path",
         "description": "absolute path to tmog appimage.",
-        "defaultValue": "~/Applications/TaskManagerOG-0.1.3-x86_64.AppImage"
+        "defaultValue": "~/Applications/TaskManagerOG.AppImage"
       }
     ]
   }
