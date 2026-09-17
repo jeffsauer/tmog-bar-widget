@@ -1,3 +1,5 @@
+<img width="1897" height="1220" alt="tmog-bar-widget" src="https://github.com/user-attachments/assets/d7436dcb-1612-493a-8df4-164cbd1af20d" />
+
 # tmog-bar-widget
 Omarchy bar widget to toggle (i.e. show/hide) TMOG visibility using a hyprland scratchpad workspace.
 
