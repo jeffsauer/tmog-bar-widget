@@ -13,7 +13,8 @@ To install, use the following command:
 omarchy plugin add https://github.com/jeffsauer/tmog-bar-widget --enable
 ```
 
-Also, add a rule to your .config/hypr/looknfeel.lua, and then do ```hyprctl reload```
+Also, if the tmog window doesn't float properly, you might need to add a rule to your .config/hypr/looknfeel.lua, and then do ```hyprctl reload```
+On my system this wasn't needed, but including this here in case it might be useful for others.
 ```
 o.window("^com.tmog.taskmanager$", { workspace = "special:taskmgr silent" })
 ```
