@@ -13,10 +13,18 @@ To install, use the following command:
 omarchy plugin add https://github.com/jeffsauer/tmog-bar-widget --enable
 ```
 
-Also, if the tmog window doesn't float properly, you might need to add a rule to your .config/hypr/looknfeel.lua, and then do ```hyprctl reload```
-On my system this wasn't needed, but including this here in case it might be useful for others.
+Also, add a rule to your .config/hypr/hyprland.lua, and then do ```hyprctl reload```
+
 ```
-o.window("^com.tmog.taskmanager$", { workspace = "special:taskmgr silent" })
+-- Task Manager TMOG: park the window on a special (scratchpad)
+-- workspace so the bar plugin can show/hide it like a dropdown.
+-- Sized to 80% of the monitor in each axis so it scales across displays.
+o.window({ class = "^(com\\.tmog\\.taskmanager|tmog-task-manager)$" }, {
+  workspace = "special:taskmgr",
+  float = true,
+  size = { "(monitor_w*4/5)", "(monitor_h*4/5)" },
+  center = true,
+})
 ```
 
 To enable a keybinding shortcut to toggle the visibility of TMOG (e.g. SUPER+ALT+T), simply add the following to .config/hypr/bindings.lua:
